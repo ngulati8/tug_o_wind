@@ -4,12 +4,17 @@
     "dependencies": {
         "core": "*",
         "radio": "*",
-        "microphone": "*"
+        "microphone": "*",
+        "OLED12864_I2C": "github:makecode-extensions/oled12864_i2c#v1.5.0",
+        "enoder - Copy": "pub:39425-46294-14510-16360",
+        "rgb_analog - Copy": "pub:27064-64532-62767-37160"
     },
     "files": [
         "main.blocks",
         "main.ts",
-        "README.md"
+        "README.md",
+        "main.py",
+        "custom.ts"
     ],
     "testFiles": [
         "test.ts"
